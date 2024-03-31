@@ -1,3 +1,27 @@
+Project overview:
+  The project is mainly focused on Frontend Part, React.JS has been used for this project.
+  The project deals with fetching the BookUsNow details and representing the data on UI.
+  
+Setup and local run instructions:
+  Setup and install dependencies- npm install
+  Run - npm start
+  
+Explanation of design and technical decisions:
+  The BookUsNow project is focused on developing UI using React.
+  In order to provide responsive design, media queries is used.
+  This is a single page application. 
+  Effective fetching, usage, and display of data from a REST API is succesfully performed.
+  Fialure error such as inconsistent fetch response etc and handled by providing failureViews, including try again feature. 
+  Recommended Events are freely arranged horizontally and overflow behaviour is handled by providing scroller.
+  In Upcomming events Lazy loading is assigned to fetch page by page.
+  Usage of color and fonts were used as provided in the instructions.
+  In order to enhance performance Optimization techniques were implimented for fast loading times.
+  Reuseable components are used through out the project.
+  In order to convert IMG_URL from google drive file links to direct image links a function has been written.
+  
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
