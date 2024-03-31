@@ -1,0 +1,46 @@
+.event-card{
+    margin: 10px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.event-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width:15vw;
+    padding: 10px;
+}
+.event-image{
+    height:180px;
+    width:140px;
+}
+.event-name{
+    font-size: 8px;
+    margin: 0px;
+    padding: 0px;
+}
+.event-card-location{
+    display: flex;
+    flex-direction: row;
+    font-size: 8px;
+    color: #989090;
+}
+.event-date{
+    font-size: 8px;
+}
+@media screen and (max-width:768px){
+    .event-container{
+        flex-direction: column;
+        justify-content: center;
+        width:25vw;
+    }
+    .event-image{
+        height:180px;
+        width:140px;
+    }
+}
